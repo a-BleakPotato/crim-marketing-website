@@ -28,7 +28,7 @@ export default function AboutPreviewSection({ school }: AboutPreviewSectionProps
               <span className="text-xs font-semibold uppercase tracking-widest" style={{ color: secondary }}>About Us</span>
             </div>
             <h2 className="section-title mb-4">
-              About {school.school.abbreviation}
+              The {school.school.name}
             </h2>
             <p className="text-content-body leading-relaxed mb-4">
               {school.about.history.slice(0, 320)}{school.about.history.length > 320 ? '…' : ''}
