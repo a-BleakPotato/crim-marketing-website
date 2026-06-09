@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Mail, Phone, MapPin, Clock, GraduationCap } from 'lucide-react';
+import { Mail, Phone, MapPin, Clock } from 'lucide-react';
 
 // Inline SVG brand icons (lucide-react removed social media icons in v1.x)
 function FacebookIcon() {

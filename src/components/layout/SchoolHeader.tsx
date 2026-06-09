@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
-import { Menu, X, GraduationCap, ExternalLink, ChevronDown } from 'lucide-react';
+import { Menu, X, ExternalLink, ChevronDown } from 'lucide-react';
 import type { SchoolData } from '../../types/school';
 
 interface SchoolHeaderProps {
