@@ -180,7 +180,7 @@ export default function HeroSection({ school }: HeroSectionProps) {
               className="px-4 py-1.5 rounded-full text-sm font-semibold uppercase tracking-widest"
               style={{ backgroundColor: secondary, color: '#fff' }}
             >
-              {school.school.abbreviation}
+              {school.university.name}
             </span>
           </div>
 

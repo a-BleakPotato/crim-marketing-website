@@ -27,7 +27,7 @@ school:
     #   2. Set the value below to just the filename (no leading slash):
     #        logo: "logo.webp"
     #   3. Leave it as "" (empty) to show the school name as text instead.
-    logo: ""
+    logo: "Logo.webp"
 
 # Social media links — paste the full URL or leave as "" to hide the icon.
 socialMedia:
