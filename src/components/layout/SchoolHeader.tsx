@@ -89,9 +89,7 @@ export default function SchoolHeader({ school }: SchoolHeaderProps) {
 
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3 flex-shrink-0">
-              <div className="w-10 h-10 rounded-full flex items-center justify-center text-white" style={{ backgroundColor: secondary }}>
-                <GraduationCap size={20} />
-              </div>
+              <img src="/images/Logo.webp" alt="School Logo" className="h-12 w-12 object-contain" />
               <div className="leading-tight">
                 <p className="text-xs text-content-subtle font-medium uppercase tracking-wide">{school.university.name}</p>
                 <p className="text-sm font-bold text-content max-w-[200px] sm:max-w-xs leading-tight">
