@@ -113,7 +113,7 @@ export default function HeroSection({ school }: HeroSectionProps) {
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href={primaryBtn.href}
-              className="px-8 py-3.5 rounded-full font-semibold text-white transition-opacity hover:opacity-90 text-sm text-center"
+              className="px-8 py-3.5 rounded-full font-semibold text-white transition-opacity hover:opacity-90 text-sm/normal text-center"
               style={{ backgroundColor: primary }}
             >
               {primaryBtn.label}

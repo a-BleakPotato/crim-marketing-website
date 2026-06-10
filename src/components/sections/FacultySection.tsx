@@ -78,12 +78,12 @@ export default function FacultySection({ school }: FacultySectionProps) {
                 {/* Photo */}
                 <div
                   className="w-20 h-20 rounded-full overflow-hidden flex-shrink-0 flex items-center justify-center border-2"
-                  style={{ backgroundColor: `${primary}15`, borderColor: `${secondary}60` }}
+                  style={{ backgroundColor: `${primary}15`, borderColor: `${primary}60` }}
                 >
                   {member.image ? (
                     <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
                   ) : (
-                    <UserCircle size={44} style={{ color: secondary }} className="opacity-40" />
+                    <UserCircle size={44} style={{ color: primary }} className="opacity-40" />
                   )}
                 </div>
 
@@ -157,7 +157,7 @@ export default function FacultySection({ school }: FacultySectionProps) {
                 {member.image ? (
                   <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
                 ) : (
-                  <UserCircle size={56} style={{ color: secondary }} className="opacity-40" />
+                  <UserCircle size={56} style={{ color: primary }} className="opacity-40" />
                 )}
               </div>
 

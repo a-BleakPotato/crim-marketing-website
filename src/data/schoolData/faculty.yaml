@@ -10,7 +10,7 @@
 #   list - Horizontal cards showing photo, name, title, specialization, and
 #          social links side by side. Better for fewer faculty (2–6) with more detail.
 #
-variant: grid
+variant: list
 
 # ---------------------------------------------------------------------------
 # FACULTY MEMBERS
@@ -31,38 +31,65 @@ variant: grid
 #        image: "faculty/jose-reyes.webp"
 #   3. Leave as "" to show a placeholder silhouette icon.
 faculty:
-  - name: "Prof. Jose Reyes"
-    suffixes: "MBA, CPA"
-    title: "Program Chair, BSA"
-    specialization: "Financial Accounting & Reporting"
-    image: ""
-    socialMedia:
-      facebook: ""
-      linkedin: ""
+    - name: "Mike Jo V. Perreras"
+      suffixes: "RCrim, MSCrim"
+      title: "Dean, SOC"
+      specialization: "Dunno what does a criminology professor specialize in lol"
+      image: "faculty/mikejo-perreras.webp"
+      socialMedia:
+          facebook: "https://www.facebook.com/share/18bmLSn9Dn/"
+          linkedin: ""
 
-  - name: "Prof. Ana Cruz"
-    suffixes: "MBA"
-    title: "Program Chair, BSBA"
-    specialization: "Business Strategy & Marketing"
-    image: ""
-    socialMedia:
-      facebook: ""
-      linkedin: ""
+    - name: "Leinelyn Grace C. Soriano"
+      suffixes: "RCrim"
+      title: "Faculty Member, SOC"
+      specialization: "Don't really know either"
+      image: "faculty/leinelyn-soriano.webp"
+      socialMedia:
+          facebook: "https://www.facebook.com/share/1B3xnE1MVk/"
+          linkedin: ""
 
-  - name: "Dr. Ramon Dela Cruz"
-    suffixes: "PhD, CPA"
-    title: "Associate Dean"
-    specialization: "Management Accounting"
-    image: ""
-    socialMedia:
-      facebook: ""
-      linkedin: ""
+    - name: "Geraldine G. Carig"
+      suffixes: "RCrim"
+      title: "Faculty Member, SOC"
+      specialization: "Again, not sure what to put here"
+      image: "faculty/geraldine-carig.webp"
+      socialMedia:
+          facebook: "https://www.facebook.com/share/18Tdsw89Yj/"
+          linkedin: ""
 
-  - name: "Prof. Liza Gonzales"
-    suffixes: "LLB, CPA"
-    title: "Faculty Member"
-    specialization: "Taxation & Business Law"
-    image: ""
-    socialMedia:
-      facebook: ""
-      linkedin: ""
+    - name: "Jules Danison G. Saplan"
+      suffixes: "RCrim"
+      title: "Faculty Member, SOC"
+      specialization: "Fought in every war in the history of mankind, just to see gay people having sex."
+      image: "faculty/jules-saplan.webp"
+      socialMedia:
+          facebook: "https://www.facebook.com/share/1FSyahS1ZG/"
+          linkedin: ""
+
+    - name: "Jovelyn M. Gonzales"
+      suffixes: "RCrim"
+      title: "Faculty Member, SOC"
+      specialization: "Taxation of the poor since I think these guys are corrupt or something."
+      image: "faculty/jovelyn-gonzales.webp"
+      socialMedia:
+          facebook: "https://www.facebook.com/share/1DS3frvVja/"
+          linkedin: ""
+
+    - name: "Chabelita Y. Escaño"
+      suffixes: "RCrim"
+      title: "Faculty Member, SOC"
+      specialization: "Arresting innocent people and letting the guilty go free, probably."
+      image: "faculty/chabelita-escano.webp"
+      socialMedia:
+          facebook: "https://www.facebook.com/share/18PcmpAjXR/"
+          linkedin: ""
+
+    - name: "Paolo S. Santos"
+      suffixes: "RCrim"
+      title: "Faculty Member, SOC"
+      specialization: "Probably the same as the others, but let's just say 'Criminal Psychology' to sound fancy."
+      image: "faculty/paolo-santos.webp"
+      socialMedia:
+          facebook: "https://www.facebook.com/share/1c5X6hVxyB/"
+          linkedin: ""

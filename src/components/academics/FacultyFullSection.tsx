@@ -74,7 +74,7 @@ export default function FacultyFullSection({ school }: FacultyFullSectionProps) 
               {/* Photo */}
               <div
                 className="w-24 h-24 rounded-full overflow-hidden mx-auto mb-4 flex items-center justify-center shadow border-4 group-hover:scale-105 transition-transform"
-                style={{ backgroundColor: `${primary}15`, borderColor: `${secondary}50` }}
+                style={{ backgroundColor: `${primary}15`, borderColor: `${primary}50` }}
               >
                 {member.image ? (
                   <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
