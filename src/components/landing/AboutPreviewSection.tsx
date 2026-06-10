@@ -70,10 +70,10 @@ export default function AboutPreviewSection({ school }: AboutPreviewSectionProps
               <div className="absolute inset-0 opacity-5"
                 style={{ backgroundImage: 'radial-gradient(circle, white 1px, transparent 1px)', backgroundSize: '20px 20px' }} />
 
-              <Quote size={36} className="opacity-20 mb-4" />
+              <Quote size={36} className="opacity-20 text-content-inverted mb-4" />
 
-              <p className="text-content-body leading-relaxed text-base italic mb-6">
-                "{school.dean.message.slice(0, 260)}{school.dean.message.length > 260 ? '…' : ''}"
+              <p className="text-content-inverted leading-relaxed text-base italic mb-6">
+                "{school.dean.message.slice(0, 360)}{school.dean.message.length > 360 ? '…' : ''}"
               </p>
 
               <div className="flex items-center gap-4">
@@ -86,8 +86,8 @@ export default function AboutPreviewSection({ school }: AboutPreviewSectionProps
                     : <UserCircle size={36} className="text-content-subtle" />}
                 </div>
                 <div>
-                  <p className="font-bold text-content">{school.dean.name}</p>
-                  <p className="text-content-muted text-sm">{school.dean.title}</p>
+                  <p className="font-bold text-content-inverted">{school.dean.name}</p>
+                  <p className="text-content-inverted text-sm">{school.dean.title}</p>
                 </div>
               </div>
             </div>

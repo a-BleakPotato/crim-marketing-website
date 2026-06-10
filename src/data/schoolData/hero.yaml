@@ -25,7 +25,7 @@ variant: centered
 #   2. Set the value below to just the filename and subfolder (no leading slash):
 #        heroImage: "hero.webp"
 #   3. Leave it as "" to use a colored gradient background instead.
-heroImage: ""
+heroImage: "hero-image.webp"
 
 # Call-to-action buttons
 ctaPrimary:
