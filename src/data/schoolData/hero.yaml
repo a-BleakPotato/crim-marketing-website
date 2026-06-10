@@ -10,7 +10,7 @@
 #   split-right - Two-column layout: text on the left, image panel on the right.
 #                 Great when you have a portrait-style photo of the school or dean.
 #
-variant: centered
+variant: split-right
 
 # ---------------------------------------------------------------------------
 # HERO IMAGE

@@ -23,8 +23,18 @@ export default function HistorySection({ school }: HistorySectionProps) {
               <div className="w-8 h-0.5" style={{ backgroundColor: secondary }} />
               <span className="text-xs font-semibold uppercase tracking-widest" style={{ color: secondary }}>Our Story</span>
             </div>
-            <h2 className="section-title mb-6">History of {school.school.abbreviation}</h2>
-            <p className="text-content-body leading-relaxed text-base">{school.about.history}</p>
+            <h2 className="section-title mb-6">
+  History of {school.school.abbreviation}
+</h2>
+
+{school.about.history.map((paragraph, index) => (
+  <p
+    key={index}
+    className="text-content-body leading-relaxed text-base mb-4"
+  >
+    {paragraph}
+  </p>
+))}
           </motion.div>
 
           <motion.div

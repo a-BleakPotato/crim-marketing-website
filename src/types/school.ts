@@ -126,7 +126,7 @@ export interface TimelineItem {
 }
 
 export interface About {
-  history: string;
+  history: string[];
   future: string;
   vision: string;
   mission: string;
