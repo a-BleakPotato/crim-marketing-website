@@ -31,20 +31,8 @@ export default function AboutPreviewSection({ school }: AboutPreviewSectionProps
               The {school.school.name}
             </h2>
             <p className="text-content-body leading-relaxed mb-4">
-              {school.about.history.slice(0, 320)}{school.about.history.length > 320 ? '…' : ''}
+              {school.about.aboutText}
             </p>
-
-            {/* Vision / Mission preview */}
-            <div className="space-y-3 mb-6">
-              <div className="p-4 rounded-xl border-l-4" style={{ borderColor: primary, backgroundColor: `${primary}08` }}>
-                <p className="text-xs font-bold uppercase tracking-wider mb-1" style={{ color: secondary }}>Vision</p>
-                <p className="text-sm text-content-body leading-relaxed">{school.about.vision}</p>
-              </div>
-              <div className="p-4 rounded-xl border-l-4" style={{ borderColor: secondary, backgroundColor: `${secondary}12` }}>
-                <p className="text-xs font-bold uppercase tracking-wider mb-1" style={{ color: secondary }}>Mission</p>
-                <p className="text-sm text-content-body leading-relaxed">{school.about.mission}</p>
-              </div>
-            </div>
 
             <Link
               to="/about"

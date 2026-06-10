@@ -12,10 +12,11 @@ school:
     name: "School of Criminology"
     abbreviation: "SOC"
     slug: "SOC"
-    tagline: "Superminence, Benevolence, Affluence"
+    tagline: "Honor, Knowledge, Justice"
     description: "The School of Criminology is committed to producing globally competent graduates equipped with the knowledge, skills, and values needed to thrive in today's dynamic criminology environment."
     primaryColor: "#a10030"
     secondaryColor: "#001848"
+    accentColor: "#e8f0fe"
 
     # ---------------------------------------------------------------------------
     # SCHOOL LOGO

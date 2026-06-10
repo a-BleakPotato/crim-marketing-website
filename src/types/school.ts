@@ -126,6 +126,7 @@ export interface TimelineItem {
 }
 
 export interface About {
+  aboutText: string;
   history: string[];
   future: string;
   vision: string;
@@ -171,11 +172,13 @@ export interface SchoolData {
     description: string;
     primaryColor: string;
     secondaryColor: string;
+    accentColor: string;
     heroImage?: string;
     logo?: string;
     heroCta?: {
       primary?: { label: string; href: string };
       secondary?: { label: string; href: string };
+      accent?: { label: string; href: string };
     };
   };
   university: University;
