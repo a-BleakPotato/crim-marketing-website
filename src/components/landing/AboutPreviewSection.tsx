@@ -27,8 +27,8 @@ export default function AboutPreviewSection({ school }: AboutPreviewSectionProps
               <div className="w-8 h-0.5" style={{ backgroundColor: secondary }} />
               <span className="text-xs font-semibold uppercase tracking-widest" style={{ color: secondary }}>About Us</span>
             </div>
-            <h2 className="section-title mb-4">
-              The {school.school.name}
+            <h2 className="section-title !mb-8">
+              {school.about.aboutTagline}
             </h2>
             <p className="text-content-body leading-relaxed mb-4">
               {school.about.aboutText}

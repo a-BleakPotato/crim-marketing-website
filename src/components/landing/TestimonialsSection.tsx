@@ -35,7 +35,7 @@ export default function TestimonialsSection({ school }: TestimonialsSectionProps
         </span>
         <div className="w-8 h-0.5" style={{ backgroundColor: secondary }} />
       </div>
-      <h2 className="section-title">What Our Alumni Say</h2>
+      <h2 className="section-title">Voices of Our Students</h2>
       <p className="section-subtitle max-w-xl mx-auto">
         Hear from the graduates who've carried {school.school.abbreviation}'s values into their careers.
       </p>

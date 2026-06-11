@@ -11,7 +11,7 @@
 #              with the remaining quotes listed in a smaller row below.
 #              Best when you want one standout story.
 #
-variant: featured
+variant: cards
 
 # ---------------------------------------------------------------------------
 # ALUMNI TESTIMONIALS
@@ -24,23 +24,23 @@ variant: featured
 #        image: "testimonials/juan-dela-cruz.webp"
 #   3. Leave as "" to show a placeholder icon.
 testimonials:
-  - name: "Juan dela Cruz"
-    program: "BSA"
-    batch: "2021"
-    quote: "The rigor of the BSA program at SBA truly prepared me for the CPA board exam. The faculty's dedication and the quality of instruction gave me the confidence and skills I needed to pass on my first take."
-    image: ""
-    currentPosition: "Associate Auditor, Big 4 Firm"
+    - name: "Ms. Verdida, J.A."
+      program: "School of Criminology"
+      batch: "20XX"
+      quote: "Success not only reflects in personal dedication but also the nurturing environment and quality education. The passion, hard work, and determination truly embody the spirit of Universidad-Criminology and we are immensely proud of coming more accomplishments."
+      image: ""
+      currentPosition: "Add current job position or role here"
 
-  - name: "Maria Santos"
-    program: "BSBA"
-    batch: "2020"
-    quote: "My BSBA education opened doors I never imagined. The business acumen and leadership skills I developed here set me apart from my peers in the industry."
-    image: ""
-    currentPosition: "Marketing Manager, Multinational Company"
+    - name: "Mr. Saplan, Jules Danison"
+      program: "School of Criminology"
+      batch: "2023"
+      quote: "My temple of learning, Universidad de Dagupan. This has given me a vast quantity of knowledge and assisted me in becoming the best possible version of myself. I'm blessed to be part of as the first batch of K12 and now as a graduating student of Criminology. (Tatag-Kalis class 2023-001)."
+      image: ""
+      currentPosition: "Faculty Member, School of Criminology, Universidad de Dagupan"
 
-  - name: "Carlos Reyes"
-    program: "MBA"
-    batch: "2022"
-    quote: "The MBA program gave me the strategic thinking and management tools to lead my organization through complex challenges. A truly transformative experience."
-    image: ""
-    currentPosition: "Operations Director, Manufacturing Company"
+    - name: "Ms. Biay, Mararac Jane"
+      program: "School of Criminology"
+      batch: "20XX"
+      quote: "I have so many positive recollections from my time there that I genuienely belive this institution has improved. I had joy deep in me that I decided on this institution to pursue my academic goals and complete the desired course. All of the memories I have with this school will be treasured."
+      image: ""
+      currentPosition: "Operations Director, Manufacturing Company"

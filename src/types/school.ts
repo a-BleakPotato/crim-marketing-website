@@ -3,6 +3,7 @@ export interface Program {
   abbreviation: string;
   description: string;
   duration: string;
+  tags?: string[];
   type: 'undergraduate' | 'graduate' | 'postgraduate';
   objectives?: string[];
   outcomes?: string[];
@@ -126,6 +127,7 @@ export interface TimelineItem {
 }
 
 export interface About {
+  aboutTagline: string;
   aboutText: string;
   history: string[];
   future: string;
