@@ -7,7 +7,7 @@
 # DEAN'S MESSAGE
 # ---------------------------------------------------------------------------
 dean:
-    name: "Dean Name Here"
+    name: "Mike Jo V. Perreras, RCrim, MSCrim"
     title: "Dean, School of Criminology"
     message: "The Universidad de Dagupan School of Criminology offers a comprehensive and dynamic program designed to develop competent, ethical, and service-oriented criminal justice professionals. Grounded in both theoretical knowledge and practical application, the program equips students with essential skills in law enforcement, criminal investigation, forensic science, public safety, and crime prevention. It emphasizes discipline, leadership, critical thinking, and community engagement to prepare graduates for careers in policing, corrections, fire protection, security services, and other allied fields. Through qualified faculty, modern instructional approaches, and relevant training activities, the School of Criminology is committed to producing graduates who are responsive to the evolving demands of the criminal justice system and dedicated to upholding justice, integrity, and public trust."
 
@@ -18,7 +18,7 @@ dean:
     #   2. Set the value below to just the filename:
     #        image: "dean.webp"
     #   3. Leave as "" to show a placeholder silhouette icon instead.
-    image: "Logo.webp"
+    image: "faculty/mikejo-perreras.webp"
 
 # ---------------------------------------------------------------------------
 # SCHOOL HISTORY & FUTURE DIRECTION

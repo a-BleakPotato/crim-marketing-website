@@ -14,7 +14,7 @@
     --text-content-body: #374151; /* gray-700 */
     --text-content-muted: #6b7280; /* gray-500 */
     --text-content-subtle: #9ca3af; /* gray-400 */
-    --text-content-inverted: #ffffffcc; /* white for dark surfaces */
+    --text-content-inverted: #ffffffe7; /* white for dark surfaces */
 }
 
 /* Dark surface overrides — apply data-theme="dark" to any dark-bg container */

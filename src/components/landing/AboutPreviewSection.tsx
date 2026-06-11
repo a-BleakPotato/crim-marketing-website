@@ -12,7 +12,7 @@ export default function AboutPreviewSection({ school }: AboutPreviewSectionProps
   const secondary = school.school.secondaryColor;
 
   return (
-    <section className="section-padding bg-gray-50">
+    <section id="about" className="section-padding bg-gray-50">
       <div className="container-wide">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
 
