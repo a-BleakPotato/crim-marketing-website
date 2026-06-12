@@ -13,7 +13,7 @@ export default function ProgramsSection({ school }: ProgramsSectionProps) {
 
   return (
     <section id="programs" className="section-padding mb-24 bg-gray-50">
-      <div className="container-wide">
+      <div className="container-wide text-center">
         <motion.div
           className="text-center mb-12"
           initial={{ opacity: 0, y: 20 }}
@@ -47,7 +47,7 @@ export default function ProgramsSection({ school }: ProgramsSectionProps) {
         </div>
         <Link
               to="/academics"
-              className="flex justify-center items-center gap-2 text-sm font-semibold mt-16 transition-opacity hover:opacity-70"
+              className="inline-flex gap-2 text-sm font-semibold mt-16 transition-opacity hover:opacity-70"
               style={{ color: secondary }}
             >
               View Program Details <ArrowRight size={15} />
