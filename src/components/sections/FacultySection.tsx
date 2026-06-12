@@ -161,7 +161,14 @@ export default function FacultySection({ school }: FacultySectionProps) {
                 )}
               </div>
 
-              <h3 className="font-bold text-content text-base leading-tight">{member.name}</h3>
+              <h3 className="font-bold text-content text-base leading-tight">
+                {member.name}
+                {member.suffixes && (
+                  <span className="font-bold text-content text-sm ml-1">
+                    {member.suffixes}
+                  </span>
+                )}
+              </h3>
               <p className="text-sm font-medium mt-0.5" style={{ color: secondary }}>{member.title}</p>
               <p className="text-xs text-content-subtle mt-1 leading-relaxed px-2">{member.specialization}</p>
             </motion.div>

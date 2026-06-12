@@ -10,7 +10,7 @@
 #   list - Horizontal cards showing photo, name, title, specialization, and
 #          social links side by side. Better for fewer faculty (2–6) with more detail.
 #
-variant: list
+variant: grid
 
 # ---------------------------------------------------------------------------
 # FACULTY MEMBERS

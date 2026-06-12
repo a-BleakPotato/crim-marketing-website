@@ -23,7 +23,7 @@ export default function LandingPage() {
   const previewSchool = {
     ...school,
     programs: school.programs.slice(0, 3),
-    faculty: school.faculty.slice(0, 4),
+    faculty: school.faculty.slice(0, 8),
     news: school.news.slice(0, 3),
   };
 
