@@ -37,8 +37,8 @@ export default function DeanMessageSection({ school }: DeanMessageSectionProps) 
               className="px-6 py-4 rounded-xl text-content"
               style={{ backgroundColor: primary }}
             >
-              <p className="font-bold text-lg">{dean.name}</p>
-              <p className="text-content-muted text-sm mt-0.5">{dean.title}</p>
+              <p className="font-bold text-content-inverted text-lg">{dean.name}</p>
+              <p className="text-content-inverted text-sm mt-0.5">{dean.title}</p>
             </div>
           </motion.div>
 
@@ -56,7 +56,7 @@ export default function DeanMessageSection({ school }: DeanMessageSectionProps) 
               </span>
             </div>
             <h2 className="section-title mb-6">
-              Welcome to {school.school.abbreviation}
+              Welcome to the {school.school.name}
             </h2>
 
             <div className="relative">

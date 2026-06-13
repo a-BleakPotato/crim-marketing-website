@@ -13,12 +13,17 @@ interface PageHeroProps {
 export default function PageHero({ school, title, subtitle, breadcrumb }: PageHeroProps) {
   const primary = school.school.primaryColor;
   const secondary = school.school.secondaryColor;
+  const accent = school.school.accentColor;
 
   return (
     <section
       className="relative py-20 overflow-hidden"
       style={{
-        background: `linear-gradient(135deg, ${primary} 0%, ${primary}dd 70%, ${secondary}55 100%)`,
+        background: `linear-gradient(
+            135deg,
+            ${secondary}ff 0%,
+            ${primary}aa 100%
+          )`,
       }}
     >
       {/* Dot pattern */}
@@ -36,7 +41,7 @@ export default function PageHero({ school, title, subtitle, breadcrumb }: PageHe
       <div className="relative z-10 container-wide px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb */}
         <motion.nav
-          className="flex items-center gap-1.5 text-content-muted text-xs mb-5"
+          className="flex items-center gap-1.5 text-content-inverted text-xs mb-5"
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4 }}
@@ -45,7 +50,7 @@ export default function PageHero({ school, title, subtitle, breadcrumb }: PageHe
             {school.school.abbreviation}
           </Link>
           <ChevronRight size={12} />
-          <span className="text-content-body">{breadcrumb ?? title}</span>
+          <span className="text-content-inverted">{breadcrumb ?? title}</span>
         </motion.nav>
 
         <motion.div
@@ -54,19 +59,19 @@ export default function PageHero({ school, title, subtitle, breadcrumb }: PageHe
           transition={{ duration: 0.5 }}
         >
           <div className="flex items-center gap-2 mb-3">
-            <div className="w-8 h-0.5" style={{ backgroundColor: secondary }} />
+            <div className="w-8 h-0.5" style={{ backgroundColor: accent }} />
             <span
               className="text-xs font-semibold uppercase tracking-widest"
-              style={{ color: secondary }}
+              style={{ color: accent }}
             >
               {school.school.abbreviation}
             </span>
           </div>
-          <h1 className="text-4xl sm:text-5xl font-bold text-content leading-tight mb-3">
+          <h1 className="text-4xl sm:text-5xl font-bold text-content-inverted leading-tight mb-3">
             {title}
           </h1>
           {subtitle && (
-            <p className="text-content-muted text-lg max-w-2xl">{subtitle}</p>
+            <p className="text-content-inverted text-lg max-w-2xl">{subtitle}</p>
           )}
         </motion.div>
       </div>

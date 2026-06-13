@@ -24,7 +24,7 @@ export default function HistorySection({ school }: HistorySectionProps) {
               <span className="text-xs font-semibold uppercase tracking-widest" style={{ color: secondary }}>Our Story</span>
             </div>
             <h2 className="section-title mb-6">
-  History of {school.school.abbreviation}
+  History of {school.school.name}
 </h2>
 
 {school.about.history.map((paragraph, index) => (
@@ -55,8 +55,8 @@ export default function HistorySection({ school }: HistorySectionProps) {
               className="mt-6 p-5 rounded-xl text-content"
               style={{ background: `linear-gradient(135deg, ${primary}, ${primary}cc)` }}
             >
-              <p className="text-xs font-bold uppercase tracking-widest opacity-70 mb-2">Our Commitment</p>
-              <p className="text-content-body text-sm leading-relaxed">
+              <p className="text-xs font-bold text-content-inverted uppercase tracking-widest opacity-70 mb-2">Our Commitment</p>
+              <p className="text-content-inverted text-sm leading-relaxed">
                 {school.about.mission}
               </p>
             </div>

@@ -20,6 +20,7 @@ const iconMap: Record<string, LucideIcon> = {
 export default function VMCSection({ school }: VMCSectionProps) {
   const primary = school.school.primaryColor;
   const secondary = school.school.secondaryColor;
+  const accent = school.school.accentColor;
 
   return (
     <section id="vmc" className="section-padding bg-white">
@@ -49,9 +50,9 @@ export default function VMCSection({ school }: VMCSectionProps) {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <p className="text-xs font-bold uppercase tracking-widest mb-3 opacity-60">Vision</p>
-            <h3 className="text-xl font-bold mb-4 leading-snug">{school.about.vision}</h3>
-            <div className="w-12 h-0.5 opacity-40" style={{ backgroundColor: secondary }} />
+            <p className="text-xs font-bold text-content-inverted uppercase tracking-widest mb-3 opacity-60">Vision</p>
+            <h3 className="text-xl font-bold text-content-inverted mb-4 leading-snug">{school.about.vision}</h3>
+            <div className="w-12 h-0.5 opacity-40" style={{ backgroundColor: accent }} />
           </motion.div>
 
           <motion.div
@@ -74,8 +75,8 @@ export default function VMCSection({ school }: VMCSectionProps) {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.15 }}
         >
-          <h3 className="text-lg font-bold text-content text-center mb-6">Core Values</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          <h3 className="text-lg font-bold text-content text-center mb-6">Objectives</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {school.about.coreValues.map((value, index) => {
               const IconComponent: LucideIcon = (value.icon ? iconMap[value.icon] : undefined) ?? Zap;
               return (

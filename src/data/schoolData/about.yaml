@@ -36,24 +36,30 @@ about:
     future: "The School of Criminology is committed to continuously evolving its curriculum and programs to meet the demands of the rapidly changing global business environment. We envision a future where our graduates lead in the digital economy, drive sustainable business practices, and contribute to national development through ethical and innovative leadership."
 
     # Vision, mission, and core values
-    vision: "A leading school of criminology that produces globally competent, ethical, and innovative professionals who contribute to sustainable development."
-    mission: "To provide quality criminology education through rigorous academic programs, industry partnerships, research, and community engagement that develop competent, ethical, and socially responsible professionals."
+    vision: "It envisions to create and produce graduates with knowledge and skills in addressing the country’s criminal justice education and the character, competence to meet the challenges of globalization in the field of criminology."
+    mission: "School of Criminology believes that through education and God’s providence can provide the community with professional, competent, and morally upright students capable of providing efficient and effective professional education, crime prevention, law enforcement, and public safety services."
 
     # Core values — each item needs a title, description, and icon name.
     # Available icons: Star, Shield, Lightbulb, Heart, Award, BookOpen, Users, Target
     coreValues:
-        - title: "Excellence"
-          description: "We pursue the highest standards in academic quality, professional practice, and community service."
+        - title: "Objective 1"
+          description: "To promote ‘Esprit de Corps’ or Camaraderie among Bachelor of Science in Criminology Students enrolled in the Institution."
           icon: "Star"
-        - title: "Integrity"
-          description: "We uphold honesty, transparency, and ethical conduct in all our endeavors."
-          icon: "Shield"
-        - title: "Innovation"
-          description: "We embrace new ideas, technologies, and approaches to advance criminology education."
+        - title: "Objective 2"
+          description: "To uphold Courtesy, Discipline, Good Conduct, and Moral Values among Bachelor of Science in Criminology Students enrolled in the Institution."
+          icon: "Award"
+        - title: "Objective 3"
+          description: "To encourage Bachelor of Science in Criminology Students to actively participate in the Institution’s Activities and Programs."
           icon: "Lightbulb"
-        - title: "Service"
-          description: "We are committed to serving our students, institution, and the broader community."
-          icon: "Heart"
+        - title: "Objective 4"
+          description: "To provide directives to Bachelor of Science in Criminology Students in assisting Security, Crowd Control, and Maintenance of Peace and Order on Activities and Programs being conducted by the Institution."
+          icon: "Shield"
+        - title: "Objective 5"
+          description: "To instill volunteerism to Bachelor of Science in Criminology Students in doing charity works and activities for the noble practice of Public Service."
+          icon: "BookOpen"
+        - title: "Objective 6"
+          description: "To enhance and develop Academic Competency, Knowledge, and Skills relevant to the Law Enforcement Field."
+          icon: "Users"
 
     # Timeline — add or remove milestones as needed. Keep year as a 4-digit string.
     timeline:
