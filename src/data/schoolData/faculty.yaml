@@ -34,7 +34,7 @@ faculty:
     - name: "Mike Jo V. Perreras"
       suffixes: "RCrim, MSCrim"
       title: "Dean, SOC"
-      specialization: "Dunno what does a criminology professor specialize in lol"
+      specialization: "Criminology and Criminal Justice"
       image: "faculty/mikejo-perreras.webp"
       socialMedia:
           facebook: "https://www.facebook.com/share/18bmLSn9Dn/"
@@ -43,7 +43,7 @@ faculty:
     - name: "Leinelyn Grace C. Soriano"
       suffixes: "RCrim"
       title: "Faculty Member, SOC"
-      specialization: "Don't really know either"
+      specialization: "Criminology and Criminal Justice"
       image: "faculty/leinelyn-soriano.webp"
       socialMedia:
           facebook: "https://www.facebook.com/share/1B3xnE1MVk/"
@@ -52,7 +52,7 @@ faculty:
     - name: "Geraldine G. Carig"
       suffixes: "RCrim"
       title: "Faculty Member, SOC"
-      specialization: "Again, not sure what to put here"
+      specialization: "Criminology and Criminal Justice"
       image: "faculty/geraldine-carig.webp"
       socialMedia:
           facebook: "https://www.facebook.com/share/18Tdsw89Yj/"
@@ -61,7 +61,7 @@ faculty:
     - name: "Jules Danison G. Saplan"
       suffixes: "RCrim"
       title: "Faculty Member, SOC"
-      specialization: "Fought in every war in the history of mankind, just to see gay people having sex."
+      specialization: "Criminology and Criminal Justice"
       image: "faculty/jules-saplan.webp"
       socialMedia:
           facebook: "https://www.facebook.com/share/1FSyahS1ZG/"
@@ -70,7 +70,7 @@ faculty:
     - name: "Jovelyn M. Gonzales"
       suffixes: "RCrim"
       title: "Faculty Member, SOC"
-      specialization: "Taxation of the poor since I think these guys are corrupt or something."
+      specialization: "Criminology and Criminal Justice"
       image: "faculty/jovelyn-gonzales.webp"
       socialMedia:
           facebook: "https://www.facebook.com/share/1DS3frvVja/"
@@ -79,7 +79,7 @@ faculty:
     - name: "Chabelita Y. Escaño"
       suffixes: "RCrim"
       title: "Faculty Member, SOC"
-      specialization: "Arresting innocent people and letting the guilty go free, probably."
+      specialization: "Criminology and Criminal Justice"
       image: "faculty/chabelita-escano.webp"
       socialMedia:
           facebook: "https://www.facebook.com/share/18PcmpAjXR/"
@@ -88,7 +88,7 @@ faculty:
     - name: "Paolo S. Santos"
       suffixes: "RCrim"
       title: "Faculty Member, SOC"
-      specialization: "Probably the same as the others, but let's just say 'Criminal Psychology' to sound fancy."
+      specialization: "Criminology and Criminal Justice"
       image: "faculty/paolo-santos.webp"
       socialMedia:
           facebook: "https://www.facebook.com/share/1c5X6hVxyB/"

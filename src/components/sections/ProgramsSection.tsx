@@ -38,7 +38,7 @@ export default function ProgramsSection({ school }: ProgramsSectionProps) {
           {school.programs[0]?.tags?.map((tag) => (
             <span
               key={tag}
-              className="text-center text-base font-semibold px-4 py-3 border rounded-full transition-opacity hover:opacity-70"
+              className="text-center text-base font-semibold px-2 py-3 border rounded-full transition-opacity hover:opacity-70"
               style={{ color: primary, borderColor: `${primary}50` }}
             >
               {tag}

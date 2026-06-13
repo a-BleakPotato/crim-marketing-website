@@ -20,6 +20,7 @@ export default function SchoolHeader({ school }: SchoolHeaderProps) {
   const [mobileExpanded, setMobileExpanded] = useState<string | null>(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const location = useLocation();
+  const primary = school.school.primaryColor;
   const secondary = school.school.secondaryColor;
 
   const navItems: NavItem[] = [
@@ -150,7 +151,7 @@ export default function SchoolHeader({ school }: SchoolHeaderProps) {
               <Link
                 to="/contact"
                 className="ml-2 px-4 py-2 text-sm font-semibold text-white rounded-md transition-opacity hover:opacity-90"
-                style={{ backgroundColor: secondary }}
+                style={{ backgroundColor: primary }}
               >
                 Enroll Now
               </Link>
