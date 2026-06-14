@@ -14,6 +14,7 @@ export default function NewsArticlePage() {
   const { newsId } = useParams<{ newsId: string }>();
   const primary = school.school.primaryColor;
   const secondary = school.school.secondaryColor;
+  const accent = school.school.accentColor;
 
   const article = school.news.find((n) => n.id === newsId);
   useSEO({
@@ -33,8 +34,12 @@ export default function NewsArticlePage() {
       <section
         className="relative py-16 overflow-hidden"
         style={{
-          background: `linear-gradient(135deg, ${primary} 0%, ${primary}dd 70%, ${secondary}55 100%)`,
-        }}
+        background: `linear-gradient(
+            135deg,
+            ${secondary}ff 0%,
+            ${primary}aa 100%
+          )`,
+      }}
       >
         <div
           className="absolute inset-0 opacity-5"
@@ -49,16 +54,16 @@ export default function NewsArticlePage() {
         <div className="relative z-10 container-wide px-4 sm:px-6 lg:px-8">
           {/* Breadcrumb */}
           <motion.nav
-            className="flex items-center gap-1.5 text-content-muted text-xs mb-5 flex-wrap"
+            className="flex items-center gap-1.5 text-content-inverted text-xs mb-5 flex-wrap"
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4 }}
           >
-            <Link to="/" className="transition-opacity hover:opacity-70">{school.school.abbreviation}</Link>
+            <Link to="/" className="transition-opacity text-content-inverted hover:opacity-70">{school.school.abbreviation}</Link>
             <ChevronRight size={12} />
-            <Link to="/news" className="transition-opacity hover:opacity-70">News & Events</Link>
+            <Link to="/news" className="transition-opacity text-content-inverted hover:opacity-70">News & Events</Link>
             <ChevronRight size={12} />
-            <span className="text-content-body line-clamp-1 max-w-xs">{article.title}</span>
+            <span className="text-content-inverted line-clamp-1 max-w-xs">{article.title}</span>
           </motion.nav>
 
           <motion.div
@@ -67,15 +72,15 @@ export default function NewsArticlePage() {
             transition={{ duration: 0.5 }}
           >
             <div className="flex items-center gap-2 mb-3">
-              <div className="w-8 h-0.5" style={{ backgroundColor: secondary }} />
-              <span className="text-xs font-semibold uppercase tracking-widest" style={{ color: secondary }}>
+              <div className="w-8 h-0.5" style={{ backgroundColor: accent }} />
+              <span className="text-xs font-semibold uppercase tracking-widest" style={{ color: accent }}>
                 {school.school.abbreviation}
               </span>
             </div>
-            <h1 className="text-3xl sm:text-4xl font-bold text-content leading-tight mb-4 max-w-3xl">
+            <h1 className="text-3xl sm:text-4xl font-bold text-content-inverted leading-tight mb-4 max-w-3xl">
               {article.headline ?? article.title}
             </h1>
-            <div className="flex flex-wrap items-center gap-4 text-content-muted text-sm">
+            <div className="flex flex-wrap items-center gap-4 text-content-inverted text-sm">
               <span className="flex items-center gap-1.5">
                 <Calendar size={14} />
                 <time dateTime={article.date}>{formatDate(article.date)}</time>
